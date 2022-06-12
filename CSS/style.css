@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+/*-----------------------------------------------------------------------------------*/
+html, body {
+	margin: 0;
+	padding: 0;
+}
+.adaptive-munu {
+	display: none;
+}
+#header-menu {
+	list-style-type: none;
+	float: left;
+	}
+.menu-section {
+	float: left;
+	font-size: 20pt;
+	padding: 0.7vh 1vw;
+	margin-right: 0;
+}
+.menu-section a {
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	color: black;
+}
+#menu-section-1 {
+	font-weight: bold;
+}
+header {
+	border-bottom: 2px solid black;
+	overflow: hidden;
+	box-shadow: 0 0.4em 5px rgba(122,122,122,0.5);
+}
+#innerlogo img {
+	width: 7vh;
+	height: 7vh;
+	padding: 1vh;
+	float: left;
+	border-radius: 50%;
+}
+#instagram img {
+	float: right;
+	width: 6vh;
+	height: 6vh;
+	padding: 2vh;
+}
+.head-block {
+	width: 98.8vw;
+	height: 90vh;
+	background-image: url('Images/head-block.png');
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover ;
+}
+.head-block {   
+	filter: blur(5px);
+}
+
+#title {
+	position: absolute;
+	bottom: 10vh;
+	padding-left: 8vw;
+}
+#title-text {
+	font-family: 'Rubik', sans-serif;
+	font-size: 40pt;
+}
+.topbutton{
+	position: fixed;
+	right: 5vh;
+	bottom: 5vh;
+	z-index: 999;
+}
+.arrow{
+	width: 40px;
+    height: 40px;
+    border-top: 10px solid rgba(0, 0, 0, .3);
+    border-right: 10px solid rgba(0, 0, 0, .3);
+    margin-right: 60px;
+    transform: rotate(-45deg);
+}
+#gallery {
+	margin-top: 0;
+}
+.inner-title {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+.photo {
+	background-size: cover;
+	float: left;
+	text-align: center;
+	list-style-type: none;
+	margin: 5vh 5vw;
+	cursor: pointer;
+	width: 21vw;
+	height: 21vw;
+}
+.photo a {
+	height: 21vw;
+	width: 21vw;
+}
+.photo:hover {
+	transition-property: all;
+	transition-duration: 0.2s;
+	transition-timing-function: linear;
+	box-shadow:  0 0 10px rgba(0,0,0,0.5);;
+}
+.info {
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+#shipping-info h1 a{
+	color: #0077ff;
+}
+.info {
+	margin: 0 15vw;
+}
+.footer-title {
+	font-family: 'Rubik', sans-serif;
+}
+.footer-text {
+	font-family: 'Roboto', sans-serif;
+}
+#text {
+	font-family: 'Roboto', sans-serif;
+}
+footer {
+	background-color: #6b7580;
+	padding: 5vh 12vw;
+}
+.footer-text a {
+	color: #0077ff;
+}
+#info-info h2 {
+	font-size: 22pt;
+}
+/*-----------------------------------*/
+@media screen and (max-width: 815px) {
+  .inner-title {
+  	font-size:20pt;
+  }
+  .photo {
+	background-size: cover;
+	float: left;
+	text-align: center;
+	list-style-type: none;
+	margin: 5vh 5vw;
+	cursor: pointer;
+	width: 20vw;
+	height: 20vw;
+	}
+	.photo a {
+		height: 20vw;
+		width: 20vw;
+
+	}
+}
+@media screen and (max-width: 815px) {
+  .inner-title {
+  	font-size:20pt;
+  }
+  
+  	.photo {
+		background-size: cover;
+		float: left;
+		text-align: center;
+		list-style-type: none;
+		margin: 4vh 4vw;
+		cursor: pointer;
+		width: 20vw;
+		height: 20vw;
+	}
+	.photo a {
+		height: 21vw;
+		width: 21vw;
+	}
+	header {
+		display: none;
+	}
+	.info {
+		margin: 0 9vw;
+		font-size: 10pt
+	}
+	.head-block {
+		font-size: 10pt;
+		width: 98vw;
+		height: 100vh;
+	}
+	.footer-title {
+		font-size: 10pt;
+
+	}
+	.footer-text {
+		font-size: 10pt;
+	}
+	#text {
+		font-size: 10pt;
+	}
+	#title-text {
+		font-family: 'Rubik', sans-serif;
+		font-size: 30pt;
+	}
+	.topbutton{
+		right: 1vh;
+	}
+	#info-info h2 {
+		font-size: 15pt;
+	}
+
+}

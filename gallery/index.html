@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="RU">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Галлерея</title>
+	<link rel="stylesheet" href="../CSS/style.css">
+	<link rel="stylesheet" href="../CSS/style-2.css">
+</head>
+<body id="body">
+	<div id="blur"></div>
+	<div class="topbutton"><a href="#"><div class="arrow"></div></a></div>
+	<header>
+		<div class="logo">
+			<div id="innerlogo">
+				<img src="../CSS/Images/logo.png" alt="">
+			</div>
+
+		</div>
+		<nav id="header-nav">
+			<a name="home"></a>
+			<ul id="header-menu">
+				<li id="menu-section-1" style="font-weight: normal;" class="menu-section"><a href="/">Главная</a></li>
+				<li id="menu-section-2" class="menu-section"><a href="/#info">Описание</a></li>
+				<li id="menu-section-3" class="menu-section" style="font-weight: bold;"><a href="/#gallery">Галерея</a></li>
+				<li id="menu-section-4" class="menu-section"><a href="/#shipping">Доставка</a></li>
+			</ul>
+		</nav>
+		<div id="instagram">
+			<a href="https://www.instagram.com/concrete_art.by/"><img src="../CSS/Images/Instagram_icon.png" alt=""></a>
+		</div>
+
+	</header>
+
+
+
+	<div class="gallery">
+		<a name="gallery"></a>
+		<div class="gallery-title">
+			<h1 class="inner-title">Галерея</h1>
+		</div>
+		<div id="photos">
+			<ul id="photo-list">
+				
+			</ul>
+		</div>
+	</div>
+	<!-- Доставка -->
+	<div style="visibility: hidden;" class="shipping">
+		
+		Instaram
+	</div>
+	<!-- Футер -->
+	<footer>
+		<div class="footer-title">
+			<h1>CONCRETE-ART.by</h1>
+		</div>
+		<div class="footer-text">
+			<h1 id="text">Подсвечники, свечи и кашпо из бетона. По вашему желанию изделия могут быть окрашены или декорированы фольгой. Больше фото и информации в Instagram <a href="https://www.instagram.com/concrete_art.by/">concrete-art.by</a>   </h1>
+			<h3><a href="/">Главная</a></h3>
+			<p>made by <a href="https://vk.com/andisave">Andisave </a></p>   
+		</div>
+
+	</footer>
+	<div id="slider" class="slider">
+		<img id="cross" src="../CSS/Images/cross.png" alt="" onclick="closeSlider()">
+		<a id="previous" onclick="previousSlide()">&#10094;</a>
+         <a id='inSliderLnk' href="https://www.instagram.com/concrete_art.by/"></a>
+		<a id="next" onclick="nextSlide()">&#10095;</a>
+	</div>
+</body>
+<script type="text/javascript" src="../gallery.js"></script>
+</html>
