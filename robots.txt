@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+sitemap: https://coruscant-wool.000webhostapp.com/Sitemap.xml
